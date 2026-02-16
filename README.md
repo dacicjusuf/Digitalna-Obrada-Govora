@@ -1,3 +1,5 @@
+Digitalizacija i Spektrogramska Analiza Govornog Signala
+
 Ovaj projekat predstavlja praktičnu implementaciju procesa digitalne obrade govora, sa fokusom na spektrogramsku analizu i frekvencijsku interpretaciju govornog signala korištenjem MATLAB okruženja.
 
 Cilj rada bio je demonstrirati kompletan tok obrade govora — od snimanja analognog signala, preko A/D konverzije i frekvencijske analize, do filtriranja i simulacije D/A rekonstrukcije.
