@@ -1,11 +1,10 @@
 Digitalizacija i Spektrogramska Analiza Govornog Signala
-📌 Opis projekta
+
+Opis projekta:
 
 Ovaj projekat predstavlja praktičnu implementaciju procesa digitalne obrade govora, sa fokusom na spektrogramsku analizu i frekvencijsku interpretaciju govornog signala korištenjem MATLAB okruženja.
 
 Cilj projekta je demonstrirati kompletan tok obrade govora — od snimanja analognog signala, preko A/D konverzije i frekvencijske analize, do filtriranja i simulacije D/A rekonstrukcije.
-
-🧠 Teorijski koncepti
 
 Projekt obuhvata sljedeće ključne koncepte iz oblasti digitalne obrade signala:
 
@@ -29,8 +28,7 @@ Digitalno filtriranje (Butterworth niskopropusni filtar)
 
 Simulacija D/A konverzije interpolacijom
 
-🎤 Praktična implementacija
-Snimanje govora
+Praktična implementacija - Snimanje govora
 
 Analizirana je ista rečenica izgovorena u različitim modalitetima:
 
@@ -46,7 +44,7 @@ Brzi i spori tempo govora
 
 Signal je snimljen mobilnim uređajem (44.1 kHz, 16-bit), a zatim konvertovan u WAV format radi obrade u MATLAB-u.
 
-📊 Izvršene analize
+Izvršene analize
 
 Vremenski prikaz signala
 
@@ -62,7 +60,7 @@ Poređenje govora prije i poslije filtriranja
 
 Simulacija rekonstrukcije signala linearnom interpolacijom
 
-🛠 Tehnički detalji
+Tehnički detalji
 
 Prozor: Hamming (512 uzoraka)
 
