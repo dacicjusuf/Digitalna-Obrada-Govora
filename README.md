@@ -1,59 +1,87 @@
-DIGITALIZACIJA I SPEKTROGRAMSKA ANALIZA GOVORNOG SIGNALA
+Digitalizacija i Spektrogramska Analiza Govornog Signala
+📌 Opis projekta
 
 Ovaj projekat predstavlja praktičnu implementaciju procesa digitalne obrade govora, sa fokusom na spektrogramsku analizu i frekvencijsku interpretaciju govornog signala korištenjem MATLAB okruženja.
-Cilj rada bio je demonstrirati kompletan tok obrade govora — od snimanja analognog signala, preko A/D konverzije i frekvencijske analize, do filtriranja i simulacije D/A rekonstrukcije.
+
+Cilj projekta je demonstrirati kompletan tok obrade govora — od snimanja analognog signala, preko A/D konverzije i frekvencijske analize, do filtriranja i simulacije D/A rekonstrukcije.
+
+🧠 Teorijski koncepti
 
 Projekt obuhvata sljedeće ključne koncepte iz oblasti digitalne obrade signala:
 
-- Analogno-digitalna konverzija (A/D)
+Analogno-digitalna konverzija (A/D)
 
-- Uzorkovanje i kvantizacija
+Uzorkovanje i kvantizacija
 
-- Nyquistov teorem
+Nyquistov teorem
 
-- Diskretna Fourierova transformacija (DFT)
+Diskretna Fourierova transformacija (DFT)
 
-- Brza Fourierova transformacija (FFT)
+Brza Fourierova transformacija (FFT)
 
-- Kratkovremenska Fourierova transformacija (STFT)
+Kratkovremenska Fourierova transformacija (STFT)
 
-- Spektrogramska analiza
+Spektrogramska analiza
 
-- Formanti (F1, F2, F3)
+Formanti (F1, F2, F3)
 
-- Digitalno filtriranje (Butterworth niskopropusni filtar)
+Digitalno filtriranje (Butterworth niskopropusni filtar)
 
-- Simulacija D/A konverzije interpolacijom
+Simulacija D/A konverzije interpolacijom
 
-- Praktična implementacija - Snimanje govora
+🎤 Praktična implementacija
+Snimanje govora
 
-- Analizirana je ista rečenica izgovorena u različitim modalitetima:
+Analizirana je ista rečenica izgovorena u različitim modalitetima:
 
-- Normalan ton
+Normalan ton
 
-- Šapat
+Šapat
 
-- Povišen ton
+Povišen ton
 
-- Kombinacija šapata i povišenog tona
+Kombinacija šapata i povišenog tona
 
-- Brzi i spori tempo govora
+Brzi i spori tempo govora
 
-Signal je snimljen mobilnim uređajem (44.1 kHz, 16-bit), zatim konvertovan u WAV format radi obrade u MATLAB-u.
+Signal je snimljen mobilnim uređajem (44.1 kHz, 16-bit), a zatim konvertovan u WAV format radi obrade u MATLAB-u.
 
-Analize koje su izvršene:
+📊 Izvršene analize
 
-✔ Vremenski prikaz signala
+Vremenski prikaz signala
 
-✔ Spektrogramska analiza (STFT)
+Spektrogramska analiza (STFT)
 
-✔ Identifikacija formantskih područja
+Identifikacija formantskih područja
 
-✔ Filtriranje pomoću 6. reda Butterworth filtra (fc = 3500 Hz)
+Filtriranje pomoću Butterworth filtra 6. reda (fc = 3500 Hz)
 
-✔ Filtriranje bez faznog pomaka korištenjem filtfilt()
+Filtriranje bez faznog pomaka korištenjem filtfilt()
 
-✔ Poređenje govora prije i poslije filtriranja
+Poređenje govora prije i poslije filtriranja
 
-✔ Simulacija rekonstrukcije signala linearnom interpolacijom
+Simulacija rekonstrukcije signala linearnom interpolacijom
 
+🛠 Tehnički detalji
+
+Prozor: Hamming (512 uzoraka)
+
+Preklapanje: 50%
+
+FFT veličina: 1024
+
+Frekvencija uzorkovanja: 44.1 kHz
+
+Bitna dubina: 16-bit
+
+🎯 Cilj projekta
+
+Demonstrirati kako se analogni govorni signal može:
+
+Digitalizovati
+
+Analizirati u frekvencijskom domenu
+
+Filtrirati radi uklanjanja visokofrekventnog šuma
+
+Rekonstruisati u približan analogni oblik
