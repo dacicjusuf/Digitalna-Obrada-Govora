@@ -41,12 +41,19 @@ Projekt obuhvata sljedeće ključne koncepte iz oblasti digitalne obrade signala
 
 Signal je snimljen mobilnim uređajem (44.1 kHz, 16-bit), zatim konvertovan u WAV format radi obrade u MATLAB-u.
 
-Analize koje su izvršene
+Analize koje su izvršene:
 
 ✔ Vremenski prikaz signala
+
 ✔ Spektrogramska analiza (STFT)
+
 ✔ Identifikacija formantskih područja
+
 ✔ Filtriranje pomoću 6. reda Butterworth filtra (fc = 3500 Hz)
+
 ✔ Filtriranje bez faznog pomaka korištenjem filtfilt()
+
 ✔ Poređenje govora prije i poslije filtriranja
+
 ✔ Simulacija rekonstrukcije signala linearnom interpolacijom
+
