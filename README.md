@@ -1,43 +1,42 @@
 DIGITALIZACIJA I SPEKTROGRAMSKA ANALIZA GOVORNOG SIGNALA
 
 Ovaj projekat predstavlja praktičnu implementaciju procesa digitalne obrade govora, sa fokusom na spektrogramsku analizu i frekvencijsku interpretaciju govornog signala korištenjem MATLAB okruženja.
-
 Cilj rada bio je demonstrirati kompletan tok obrade govora — od snimanja analognog signala, preko A/D konverzije i frekvencijske analize, do filtriranja i simulacije D/A rekonstrukcije.
 
 Projekt obuhvata sljedeće ključne koncepte iz oblasti digitalne obrade signala:
 
-Analogno-digitalna konverzija (A/D)
+- Analogno-digitalna konverzija (A/D)
 
-Uzorkovanje i kvantizacija
+- Uzorkovanje i kvantizacija
 
-Nyquistov teorem
+- Nyquistov teorem
 
-Diskretna Fourierova transformacija (DFT)
+- Diskretna Fourierova transformacija (DFT)
 
-Brza Fourierova transformacija (FFT)
+- Brza Fourierova transformacija (FFT)
 
-Kratkovremenska Fourierova transformacija (STFT)
+- Kratkovremenska Fourierova transformacija (STFT)
 
-Spektrogramska analiza
+- Spektrogramska analiza
 
-Formanti (F1, F2, F3)
+- Formanti (F1, F2, F3)
 
-Digitalno filtriranje (Butterworth niskopropusni filtar)
+- Digitalno filtriranje (Butterworth niskopropusni filtar)
 
-Simulacija D/A konverzije interpolacijom
+- Simulacija D/A konverzije interpolacijom
 
-Praktična implementacija - Snimanje govora
+- Praktična implementacija - Snimanje govora
 
-Analizirana je ista rečenica izgovorena u različitim modalitetima:
+- Analizirana je ista rečenica izgovorena u različitim modalitetima:
 
-Normalan ton
+- Normalan ton
 
-Šapat
+- Šapat
 
-Povišen ton
+- Povišen ton
 
-Kombinacija šapata i povišenog tona
+- Kombinacija šapata i povišenog tona
 
-Brzi i spori tempo govora
+- Brzi i spori tempo govora
 
 Signal je snimljen mobilnim uređajem (44.1 kHz, 16-bit), zatim konvertovan u WAV format radi obrade u MATLAB-u.
